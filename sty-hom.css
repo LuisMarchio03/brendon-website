@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family= Noto+Sans:wght@400;700 & display = swap');
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    overflow-y: hidden;
+    
+}
+
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    
+}
+
+.main-home{
+    background: #201b2c;
+    height: 100vh;
+}
+
+.center-home > h1{
+    font-size: 3vw;
+    color: #77ffc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
